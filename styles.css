@@ -8,5 +8,14 @@ body {
     font-family: "Zen Kaku";
     font-weight: normal;
     font-style: normal;
-    src: url('https://files.cargocollective.com/1/Chicago.woff') format('woff');
+    src: url('https://seowoonam.github.io/ZenKakuGothicNew-Regular.ttf') format('truetype');
+}
+
+[data-predefined-style="true"] h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: "Zen Kaku", Icons;
+    font-style: normal;
+    line-height: 1.2;
 }
