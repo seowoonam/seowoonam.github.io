@@ -3,3 +3,10 @@ body {
   background: pink;
   text-align: center;
 }
+
+@font-face {
+    font-family: "Zen Kaku";
+    font-weight: normal;
+    font-style: normal;
+    src: url('https://files.cargocollective.com/1/Chicago.woff') format('woff');
+}
