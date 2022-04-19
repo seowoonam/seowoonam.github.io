@@ -1,15 +1,18 @@
-body {
-  margin: 0;
-  background: pink;
-  text-align: center;
-}
-
 @font-face {
     font-family: "Zen Kaku";
     font-weight: normal;
     font-style: normal;
     src: url('ZenKakuGothicNew-Regular.ttf') format('truetype');
 }
+
+body {
+  font-family: "Zen Kaku";
+  margin: 0;
+  background: pink;
+  text-align: center;
+}
+
+
 
 [data-predefined-style="true"] h1 {
     font-size: 2rem;
