@@ -8,7 +8,7 @@ body {
     font-family: "Zen Kaku";
     font-weight: normal;
     font-style: normal;
-    src: url('https://seowoonam.github.io/ZenKakuGothicNew-Regular.ttf') format('truetype');
+    src: url('ZenKakuGothicNew-Regular.ttf') format('truetype');
 }
 
 [data-predefined-style="true"] h1 {
