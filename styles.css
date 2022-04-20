@@ -1,11 +1,7 @@
-
-
-
 @font-face {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     font-weight: normal;
     font-style: normal;
-    src: url('ZenKakuGothicNew-Regular.ttf') format('truetype');
 }
 
 body {
