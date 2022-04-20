@@ -1,13 +1,14 @@
 @font-face {
-    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Zen Kaku';
     font-weight: normal;
     font-style: normal;
     src: url('ZenKakuGothicNew-Regular.ttf')  format('truetype');
 }
 
 body {
-  margin-left: 20px;
-  text-align: left;
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    margin-left: 20px;
+    text-align: left;
 }
 
 h1 {
