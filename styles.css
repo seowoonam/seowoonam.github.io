@@ -27,11 +27,13 @@ p {
 /* unvisited link */
 a:link {
   color: black;
+  cursor: pointer;
 }
 
 /* visited link */
 a:visited {
   color: black;
+  cursor: pointer;
 }
 
 /* mouse over link, selected link */
@@ -39,4 +41,5 @@ a:hover, a:active {
   color: black;
   text-decoration: underline;
   background-color: #E26039;
+  cursor: pointer;
 }
