@@ -34,15 +34,9 @@ a:visited {
   color: black;
 }
 
-/* mouse over link */
-a:hover {
+/* mouse over link, selected link */
+a:hover, a:active {
   color: black;
   text-decoration: underline;
-}
-
-/* selected link */
-a:active {
-  color: black;
-  text-decoration: underline;
-  background-color: #f44336;
+  background-color: #E26039;
 }
