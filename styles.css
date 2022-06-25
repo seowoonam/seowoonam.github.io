@@ -5,6 +5,13 @@
     src: url('ZenKakuGothicNew-Regular.ttf')  format('truetype');
 }
 
+@font-face {
+    font-family: 'Seowoo';
+    font-weight: normal;
+    font-style: normal;
+    src: url('Seowoo.ttf')  format('truetype');
+}
+
 body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
     margin-left: 20px;
@@ -12,7 +19,7 @@ body {
 }
 
 h1 {
-    font-family: 'Zen Kaku Gothic New', sans-serif;
+    font-family: 'Seowoo', sans-serif;
     font-size: small;
     margin-top: 20px;
     margin-left: 20px;
