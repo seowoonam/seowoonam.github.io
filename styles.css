@@ -9,7 +9,8 @@
     font-family: 'Seowoo';
     font-weight: normal;
     font-style: normal;
-    src: url('../seowoonam/Seowoo.ttf')  format('truetype');
+    src: url('../seowoonam/Seowoo.ttf')  format;
+    font-display: swap;
 }
 
 body {
