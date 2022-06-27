@@ -68,7 +68,7 @@ a.title {
 .firstdot {
   background-color: #E26039;
   background: #E26039;
-  border: 0.1875em solid #FFFFFF;
+  border: 0.1em solid #FFFFFF;
   border-radius: 50%;
   height: 2em;
   width: 2em;
@@ -79,7 +79,7 @@ a.title {
 .seconddot {
   background-color: #E26039;
   background: #E26039;
-  border: 0.1875em solid #FFFFFF;
+  border: 0.1em solid #FFFFFF;
   border-radius: 50%;
   left: 2.75em;
   height: 2em;
@@ -91,7 +91,7 @@ a.title {
 .thirddot {
   background-color: #E26039;
   background: #E26039;
-  border: 0.1875em solid #FFFFFF;
+  border: 0.1em solid #FFFFFF;
   border-radius: 50%;
   left: 3em;
   height: 2em;
@@ -103,7 +103,7 @@ a.title {
 .fourthdot {
   background-color: #E26039;
   background: #E26039;
-  border: 0.1875em solid #FFFFFF;
+  border: 0.1em solid #FFFFFF;
   border-radius: 50%;
   left: 4.25em;
   height: 2em;
@@ -115,7 +115,7 @@ a.title {
 .fifthdot {
   background-color: #E26039;
   background: #E26039;
-  border: 0.1875em solid #FFFFFF;
+  border: 0.1em solid #FFFFFF;
   border-radius: 50%;
   left: 5.5em;
   height: 2em;
