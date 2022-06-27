@@ -12,7 +12,8 @@
     url('../seowoonam/Seowoo.woff2') format('woff2'),
     url('../seowoonam/Seowoo.woff') format('woff'),
     url('../seowoonam/Seowoo.ttf')  format('truetype'),
-    url('../seowoonam/Seowoo.svg#Seowoo') format('svg');
+    url('../seowoonam/Seowoo.svg#Seowoo') format('svg'),
+    url('../seowoonam/Seowoo.otf') format(opentype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
