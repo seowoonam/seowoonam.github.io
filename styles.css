@@ -60,10 +60,9 @@ a:hover, a:active {
 
 a.title {
     font-family: 'Seowoo', sans-serif;
-    color: #E26039;
-    font-size: large;
+    color: black;
+    font-size: 2em;
     margin-top: 20px;
-    text-decoration: underline;
 }
 
 .firstdot {
