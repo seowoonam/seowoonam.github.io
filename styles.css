@@ -7,13 +7,13 @@
 
 @font-face {
     font-family: 'Seowoo';
-    font-weight: normal;
-    font-style: normal;
     src: url('../seowoonam/Seowoo.eot');
     src: url('../seowoonam/Seowoo.eot?#iefix') format('embedded-opentype'),
     url('../seowoonam/Seowoo.woff2') format('woff2'),
     url('../seowoonam/Seowoo.woff') format('woff'),
     src: url('../seowoonam/Seowoo.ttf')  format('truetype');
+    font-weight: 400;
+    font-style: normal;
     font-display: swap;
 }
 
