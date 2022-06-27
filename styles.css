@@ -11,8 +11,9 @@
     src: url('../seowoonam/Seowoo.eot?#iefix') format('embedded-opentype'),
     url('../seowoonam/Seowoo.woff2') format('woff2'),
     url('../seowoonam/Seowoo.woff') format('woff'),
-    src: url('../seowoonam/Seowoo.ttf')  format('truetype');
-    font-weight: 400;
+    url('../seowoonam/Seowoo.ttf')  format('truetype');
+    url('../seowoonam/Seowoo.svg#Seowoo') format('svg');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
