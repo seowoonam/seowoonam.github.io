@@ -81,12 +81,10 @@ a.title {
   background: #E26039;
   border: 0.1em solid #FFFFFF;
   border-radius: 50%;
-  left: 2.75em;
+  left: 1.75em;
   height: 2em;
   width: 2em;
   position: absolute;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
 }
 .thirddot {
   background-color: #E26039;
