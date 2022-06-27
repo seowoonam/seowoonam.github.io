@@ -73,15 +73,15 @@ a.title {
   height: 2em;
   width: 2em;
   position: relative;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 .seconddot {
   background-color: #E26039;
   background: #E26039;
   border: 0.1em solid #FFFFFF;
   border-radius: 50%;
-  left: 1.75em;
+  left: 2.75em;
   height: 2em;
   width: 2em;
   position: absolute;
@@ -91,7 +91,7 @@ a.title {
   background: #E26039;
   border: 0.1em solid #FFFFFF;
   border-radius: 50%;
-  left: 3em;
+  left: 4.5em;
   height: 2em;
   width: 2em;
   position: absolute;
@@ -101,7 +101,7 @@ a.title {
   background: #E26039;
   border: 0.1em solid #FFFFFF;
   border-radius: 50%;
-  left: 4.25em;
+  left: 6.25em;
   height: 2em;
   width: 2em;
   position: absolute;
@@ -111,7 +111,7 @@ a.title {
   background: #E26039;
   border: 0.1em solid #FFFFFF;
   border-radius: 50%;
-  left: 5.5em;
+  left: 8em;
   height: 2em;
   width: 2em;
   position: absolute;
