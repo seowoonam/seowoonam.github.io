@@ -59,58 +59,38 @@ a.title {
   margin-top: 20px;
 }
 
-.firstdot {
+.colordot {
   background-color: #E26039;
-  background: #E26039;
   border: 0.1em solid #FFFFFF;
   border-radius: 50%;
   height: 2em;
   width: 2em;
+
+}
+
+.firstdot {
   position: relative;
   margin-top: 1.5em;
   margin-bottom: 1em;
+
 }
 
 .seconddot {
-  background-color: #E26039;
-  background: #E26039;
-  border: 0.1em solid #FFFFFF;
-  border-radius: 50%;
-  left: 2.25em;
-  height: 2em;
-  width: 2em;
+  left: 2.5em;
   position: absolute;
 }
 
 .thirddot {
-  background-color: #E26039;
-  background: #E26039;
-  border: 0.1em solid #FFFFFF;
-  border-radius: 50%;
-  left: 3.5em;
-  height: 2em;
-  width: 2em;
+  left: 3.75em;
   position: absolute;
 }
 
 .fourthdot {
-  background-color: #E26039;
-  background: #E26039;
-  border: 0.1em solid #FFFFFF;
-  border-radius: 50%;
-  left: 4.75em;
-  height: 2em;
-  width: 2em;
+  left: 5em;
   position: absolute;
 }
 
 .fifthdot {
-  background-color: #E26039;
-  background: #E26039;
-  border: 0.1em solid #FFFFFF;
-  border-radius: 50%;
-  left: 6em;
-  height: 2em;
-  width: 2em;
+  left: 6.25em;
   position: absolute;
 }
