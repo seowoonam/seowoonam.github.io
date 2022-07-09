@@ -50,7 +50,7 @@ for (i = 0; i < closebtns.length; i++) {
 
 function toggleFilter(type) {
   if (type === 1) {
-  	filterDisplay("box");
+  	filterDisplay("workcard");
   }
   else if (type === 2) {
     filterDisplay("experimentcard");
