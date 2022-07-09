@@ -141,3 +141,13 @@ a.button2:hover {
   background-color: #514643;
   color: white;
 }
+
+#contentcard {
+  position: absolute;
+  padding-left: 10px;
+  padding-right: 10px;
+  z-index: 9;
+  background-color: #E26039;
+  text-align: left;
+  color: white;
+}
