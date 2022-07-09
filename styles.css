@@ -119,22 +119,7 @@ a.button {
   cursor: pointer;
 }
 
-.button {
-  border: none;
-  border-radius: 30px;
-  font-family: 'Seowoo', sans-serif;
-  color: white;
-  padding: 10px 18px 7.25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-
-.orangebutton {
+a.orangebutton {
   background-color: white;
   color: black;
   border: 2px solid #E26039;
@@ -143,12 +128,12 @@ a.button {
   right: 155px;
 }
 
-.orangebutton:hover {
+a.orangebutton:hover {
   background-color: #E26039;
   color: white;
 }
 
-.graybutton {
+a.graybutton {
   background-color: white;
   color: black;
   border: 2px solid #514643;
@@ -157,7 +142,7 @@ a.button {
   right: 20px;
 }
 
-.graybutton:hover {
+a.graybutton:hover {
   background-color: #514643;
   color: white;
 }
