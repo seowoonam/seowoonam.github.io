@@ -49,6 +49,7 @@ a:active {
   color: black;
   background-color: #E26039;
   cursor: pointer;
+  text-decoration: none;
 }
 
 a.title {
@@ -99,7 +100,7 @@ a.button {
   border-radius: 30px;
   font-family: 'Seowoo', sans-serif;
   color: white;
-  padding: 10px 18px 7px;
+  padding: 10px 18px 7.25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
