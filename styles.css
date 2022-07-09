@@ -28,7 +28,10 @@ h1 {
 p {
   font-family: 'Zen Kaku Gothic New', sans-serif;
   font-size: medium;
-  margin-left: 20px;
+}
+p.title {
+  font-family: 'Seowoo', sans-serif;
+  font-size: small;
 }
 
 /* unvisited link */
