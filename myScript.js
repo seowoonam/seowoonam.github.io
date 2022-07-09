@@ -49,18 +49,15 @@ for (i = 0; i < closebtns.length; i++) {
 }
 
 function toggleFilter(type) {
-  if (type === 1) {
-  	filterDisplay("workcard");
-  }
-  else if (type === 2) {
-    filterDisplay("experimentcard");
-  }
-  else if (type === 3) {
-    filterDisplay("writingcard");
-  }
-}
-
-function filterDisplay(cardtype) {
+	if (type === 1) {
+      var cardtype = "workcard";
+    }
+    else if (type === 2) {
+      var cardtype = "experimentcard";
+    }
+    else if (type === 3) {
+      var cardtype = "writingcard";
+    }
     var filteredElements = document.getElementsByClassName(cardtype);
   	for (var i = 0; i < filteredElements.length; i++) {
       var x = filteredElements[i];
