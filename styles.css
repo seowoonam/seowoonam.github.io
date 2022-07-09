@@ -118,7 +118,7 @@ a.button {
   cursor: pointer;
 }
 
-a.button1 {
+a.orangebutton {
   background-color: white;
   color: black;
   border: 2px solid #E26039;
@@ -127,12 +127,12 @@ a.button1 {
   right: 155px;
 }
 
-a.button1:hover {
+a.orangebutton:hover {
   background-color: #E26039;
   color: white;
 }
 
-a.button2 {
+a.graybutton {
   background-color: white;
   color: black;
   border: 2px solid #514643;
@@ -141,7 +141,7 @@ a.button2 {
   right: 20px;
 }
 
-a.button2:hover {
+a.graybutton:hover {
   background-color: #514643;
   color: white;
 }
