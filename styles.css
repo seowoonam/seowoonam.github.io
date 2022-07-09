@@ -143,11 +143,28 @@ a.button2:hover {
 }
 
 #contentcard {
-  position: absolute;
-  padding-left: 10px;
-  padding-right: 10px;
-  z-index: 9;
-  background-color: #E26039;
-  text-align: left;
+}
+
+.box {
+  width: 300px;
+  height: 100px;
+  padding: 15px;
   color: white;
+}
+
+.gray {
+  background-color: #514643
+}
+
+.orange {
+  background-color: #E26039
+}
+
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 0%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
 }
