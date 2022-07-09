@@ -94,3 +94,39 @@ a.title {
   left: 6.25em;
   position: absolute;
 }
+
+button {
+  border: none;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #E26039;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #514643;
+}
+
+.button2:hover {
+  background-color: #514643;
+  color: white;
+}
