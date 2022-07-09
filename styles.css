@@ -115,8 +115,8 @@ button {
   color: black;
   border: 2px solid #E26039;
   position: fixed;
-  top: 1.5em;
-  right: 7em;
+  top: 15px;
+  right: 60px;
 }
 
 .button1:hover {
@@ -129,8 +129,8 @@ button {
   color: black;
   border: 2px solid #514643;
   position: fixed;
-  top: 1.5em;
-  right: 1em;
+  top: 15px;
+  right: 15px;
 }
 
 .button2:hover {
