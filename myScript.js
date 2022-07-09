@@ -47,4 +47,29 @@ for (i = 0; i < closebtns.length; i++) {
     this.parentElement.style.display = 'none';
   });
 }
+
+function toggleFilter(type) {
+  if (type === 1) {
+  	filterDisplay("workcard");
+  }
+  else if (type === 2) {
+    filterDisplay("experimentcard");
+  }
+  else if (type === 3) {
+    filterDisplay("writingcard");
+  }
+}
+
+function filterDisplay(cardtype) {
+    var filteredElements = document.getElementsByClassName(cardtype);
+  	for (var i = 0; i < filteredElements.length; i++) {
+      var x = filteredElements[i];
+      if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+  	}
+  }
+
 }
