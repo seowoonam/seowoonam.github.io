@@ -103,7 +103,7 @@ a.title {
   position: absolute;
 }
 
-a.button {
+.button {
   border: none;
   border-radius: 30px;
   font-family: 'Seowoo', sans-serif;
@@ -118,7 +118,7 @@ a.button {
   cursor: pointer;
 }
 
-a.orangebutton {
+.orangebutton {
   background-color: white;
   color: black;
   border: 2px solid #E26039;
@@ -127,12 +127,12 @@ a.orangebutton {
   right: 155px;
 }
 
-a.orangebutton:hover {
+.orangebutton:hover {
   background-color: #E26039;
   color: white;
 }
 
-a.graybutton {
+.graybutton {
   background-color: white;
   color: black;
   border: 2px solid #514643;
@@ -141,7 +141,7 @@ a.graybutton {
   right: 20px;
 }
 
-a.graybutton:hover {
+.graybutton:hover {
   background-color: #514643;
   color: white;
 }
