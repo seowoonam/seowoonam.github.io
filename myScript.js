@@ -1,6 +1,5 @@
 //Make the DIV element draggagle:
-dragElement(document.getElementsByClassName("box gray"));
-dragElement(document.getElementsByClassName("box orange"));
+dragElement(document.getElementsByClassName("box"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
