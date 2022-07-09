@@ -97,6 +97,7 @@ a.title {
 
 button {
   border: none;
+  font-family: 'Seowoo', sans-serif;
   color: white;
   padding: 10px 18px;
   text-align: center;
@@ -116,7 +117,7 @@ button {
 }
 
 .button1:hover {
-  background-color: #4CAF50;
+  background-color: #E26039;
   color: white;
 }
 
