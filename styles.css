@@ -95,7 +95,7 @@ a.title {
   position: absolute;
 }
 
-button {
+a.button {
   border: none;
   border-radius: 30px;
   font-family: 'Seowoo', sans-serif;
@@ -110,7 +110,7 @@ button {
   cursor: pointer;
 }
 
-.button1 {
+a.button1 {
   background-color: white;
   color: black;
   border: 2px solid #E26039;
@@ -119,12 +119,12 @@ button {
   right: 155px;
 }
 
-.button1:hover {
+a.button1:hover {
   background-color: #E26039;
   color: white;
 }
 
-.button2 {
+a.button2 {
   background-color: white;
   color: black;
   border: 2px solid #514643;
@@ -133,7 +133,7 @@ button {
   right: 20px;
 }
 
-.button2:hover {
+a.button2:hover {
   background-color: #514643;
   color: white;
 }
