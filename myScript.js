@@ -47,6 +47,7 @@ for (i = 0; i < closebtns.length; i++) {
     this.parentElement.style.display = 'none';
   });
 }
+}
 
 function toggleFilter(type) {
 	if (type === 1) {
@@ -69,4 +70,3 @@ function toggleFilter(type) {
   	}
   }
 
-}
