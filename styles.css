@@ -189,3 +189,29 @@ a.graybutton:hover {
 .experimentcard{}
 
 .writingcard{}
+
+div.line {
+  padding: 200px 200px;
+  position: fixed;
+  top: 60px;
+  left: 50%;
+}
+
+.horizontal {
+  background-image:
+    linear-gradient(to right, #514643 50%, rgba(81, 70, 67, 0) 0%);
+  background-position: center;
+  background-size: 7px 1.5px;
+  background-repeat: repeat-x;
+  display: inline;
+}
+
+.vertical {
+
+  background-image:
+    linear-gradient(to bottom, #514643 50%, rgba(81, 70, 67, 0) 0%);
+  background-position: center;
+  background-size: 1.5px 7px;
+  background-repeat: repeat-y;
+  display: inline;
+}
