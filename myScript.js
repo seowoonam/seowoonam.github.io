@@ -80,11 +80,11 @@ function changeFilterStyle(type) {
   if (type === 3) {
     var filterButton = document.getElementById('writingfilter'); 
   }
-  if (filterButton.style.backgroundColor === '514643') {
-      filterButton.style.backgroundColor = '#B9B7B7';
+  if (filterButton.style.backgroundColor == "#514643") {
+      filterButton.style.backgroundColor = "#B9B7B7";
     }
   else {
-      filterButton.style.backgroundColor = '#514643';
+      filterButton.style.backgroundColor = "#514643";
     }
 }
 
