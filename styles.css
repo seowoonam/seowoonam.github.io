@@ -166,13 +166,13 @@ a.graybutton:hover {
 }
 
 .gray {
-  padding: 15px;
+  padding: 20px 15px;
   padding-top: 1.5px;
   background-color: #514643
 }
 
 .orange {
-  padding: 15px;
+  padding: 20px 15px;
   padding-top: 1.5px;
   background-color: #E26039
 }
