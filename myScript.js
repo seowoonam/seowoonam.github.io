@@ -1,3 +1,7 @@
+window.onload=changeFilterStyle(1);
+window.onload=changeFilterStyle(2);
+window.onload=changeFilterStyle(3);
+
 //Make the DIV element draggagle:
 var draggableElements = document.getElementsByClassName("box");
 
@@ -69,6 +73,8 @@ function toggleFilter(type) {
         }
   	}
   }
+
+
 
 function changeFilterStyle(type) {
   if (type === 1) {
