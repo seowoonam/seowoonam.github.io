@@ -146,6 +146,17 @@ a.orangebutton:hover {
   color: white;
 }
 
+a.orangetransparentbutton {
+  background-color: rgba(255, 255, 255, 30);
+  color: black;
+  border: 2px solid #E26039;
+}
+
+a.orangetransparentbutton:hover {
+  background-color: #E26039;
+  color: white;
+}
+
 a.graybutton {
   background-color: white;
   color: black;
