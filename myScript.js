@@ -70,3 +70,25 @@ function toggleFilter(type) {
   	}
   }
 
+function changeFilterStyle(type) {
+  if (type === 1) {
+  	var filterButton = document.getElementById('workfilter'); 
+  }
+  if (type === 2) {
+    var filterButton = document.getElementById('experimentfilter'); 
+  }
+  if (type === 3) {
+    var filterButton = document.getElementById('writingfilter'); 
+  }
+  if (filterButton.style.color === 'white') {
+      filterButton.style.border = '2px solid #514643';
+      filterButton.style.backgroundColor = 'white';
+      filterButton.style.color = '#514643';
+    }
+  else {
+  	  filterButton.style.border = 'none';
+      filterButton.style.backgroundColor = '#514643';
+      filterButton.style.color = 'white';
+    }
+}
+
