@@ -73,18 +73,31 @@ function toggleFilter(type) {
 function changeFilterStyle(type) {
   if (type === 1) {
   	var filterButton = document.getElementById('workfilter'); 
+    if (filterButton.style.backgroundColor === "rgb(81, 70, 67)") {
+      filterButton.style.backgroundColor = "#B9B7B7";
+    }
+    else {
+        filterButton.style.backgroundColor = "#514643";
+      }
   }
   if (type === 2) {
-    var filterButton = document.getElementById('experimentfilter'); 
+    var filterButton = document.getElementById('experimentfilter');
+    if (filterButton.style.backgroundColor === "rgb(81, 70, 67)") {
+      filterButton.style.backgroundColor = "#B9B7B7";
+    }
+    else {
+        filterButton.style.backgroundColor = "#514643";
+      }
   }
   if (type === 3) {
     var filterButton = document.getElementById('writingfilter'); 
-  }
-  if (filterButton.style.backgroundColor === "rgb(81, 70, 67)") {
+    if (filterButton.style.backgroundColor === "rgb(81, 70, 67)") {
       filterButton.style.backgroundColor = "#B9B7B7";
     }
-  else {
-      filterButton.style.backgroundColor = "#514643";
-    }
+    else {
+        filterButton.style.backgroundColor = "#514643";
+      }
+  }
+  
 }
 
