@@ -60,12 +60,21 @@ a:active {
   text-decoration: none;
 }
 
-a.title {
+div.title {
   font-family: 'Seowoo', sans-serif;
   color: black;
   font-size: 1.5em;
   margin-top: 20px;
   text-decoration: none;
+}
+
+.hide {
+  display: none;
+}
+
+div.title:hover + .hide {
+  display: inline-block;
+  color: #E26039;
 }
 
 .colordot {
