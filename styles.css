@@ -146,9 +146,9 @@ a.orangebutton:hover {
 }
 
 a.orangetransparentbutton {
-  background-color: none;
-  color: none;
-  border: none;
+  background-color: rgba(255, 255, 255, 0.35);
+  color: black;
+  border: 2px solid #E26039;
 }
 
 a.orangetransparentbutton:hover {
