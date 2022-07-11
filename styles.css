@@ -70,6 +70,7 @@ div.title {
 
 .hide {
   display: none;
+  width: 20%;
 }
 
 div.title:hover + .hide {
