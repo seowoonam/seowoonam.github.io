@@ -186,6 +186,10 @@ a.graybutton:hover {
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.15);
 }
 
+.box img {
+  vertical-align: bottom;
+}
+
 .gray {
   padding: 20px 15px;
   padding-top: 3px;
