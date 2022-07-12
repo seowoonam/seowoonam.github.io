@@ -76,6 +76,9 @@ div.title {
 div.title:hover + .hide {
   display: inline-block;
   color: #E26039;
+}
+
+div.title:hover {
   cursor: pointer;
 }
 
