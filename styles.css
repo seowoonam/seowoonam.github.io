@@ -271,7 +271,7 @@ div.line {
 
 .horizontal {
   background-image: linear-gradient(to right, #514643 50%, rgba(81, 70, 67, 0) 0%);
-  background-position: 50% 30%;
+  background-position: 50% 40%;
   background-size: 7px 1.5px;
   background-repeat: repeat-x;
   display: inline;
