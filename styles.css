@@ -225,7 +225,7 @@ p.topverticalaxis {
   writing-mode: vertical-lr;
   position: absolute;
   top: 10px;
-  margin-left: 10px;
+  margin-right: 10px;
   font-family: 'Seowoo', sans-serif;
   font-size: 16px;
 }
@@ -234,7 +234,7 @@ p.bottomverticalaxis {
   writing-mode: vertical-lr;
   position: absolute;
   bottom: 10px;
-  margin-left: 10px;
+  margin-right: 10px;
   font-family: 'Seowoo', sans-serif;
     font-size: 16px;
 }
