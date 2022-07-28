@@ -93,9 +93,7 @@ div.title:hover {
 
 .firstdot {
   position: relative;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-
+  margin-top: 1em;
 }
 
 .seconddot {
@@ -104,17 +102,17 @@ div.title:hover {
 }
 
 .thirddot {
-  left: 3.75em;
+  left: 2.5em;
   position: absolute;
 }
 
 .fourthdot {
-  left: 5em;
+  left: 3.75em;
   position: absolute;
 }
 
 .fifthdot {
-  left: 6.25em;
+  left: 5em;
   position: absolute;
 }
 
