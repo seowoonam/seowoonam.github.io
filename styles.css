@@ -263,7 +263,7 @@ p.righthorizontalaxis {
 }
 
 div.line {
-  padding: 600px 600px;
+  padding: 100% 100%;
   position: absolute;
   top: 20px;
   left: 20px;
@@ -271,7 +271,7 @@ div.line {
 
 .horizontal {
   background-image: linear-gradient(to right, #514643 50%, rgba(81, 70, 67, 0) 0%);
-  background-position: 50% 42%;
+  background-position: center;
   background-size: 7px 1.5px;
   background-repeat: repeat-x;
   display: inline;
