@@ -32,7 +32,6 @@ p {
 
 p.title {
   padding-top: 0%;
-  padding-bottom: 0%;
   font-family: 'Seowoo', sans-serif;
   font-size: 16px;
   line-height: 140%;
@@ -200,7 +199,7 @@ a.graybutton:hover {
 }
 
 .orange {
-  padding: 20px 15px;
+  padding: 5px 15px;
   padding-top: 3px;
   background-color: #E26039
 }
