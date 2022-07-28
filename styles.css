@@ -93,13 +93,13 @@ div.title:hover {
 
 .firstdot {
   position: relative;
-  margin-top: 1.5em;
-  margin-bottom: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 
 }
 
 .seconddot {
-  left: 2.5em;
+  left: 1.5em;
   position: absolute;
 }
 
