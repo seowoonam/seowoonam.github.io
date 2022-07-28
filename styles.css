@@ -99,7 +99,7 @@ div.title:hover {
 }
 
 .seconddot {
-  left: 1.5em;
+  left: 1.25em;
   position: absolute;
 }
 
@@ -258,6 +258,7 @@ p.righthorizontalaxis {
 }
 
 .coordinates {
+  margin-top: 0.5em;
   position: relative;
   text-align: center;
 }
