@@ -263,9 +263,11 @@ p.righthorizontalaxis {
 }
 
 div.line {
-  padding: 40% 40%;
+  padding: 35% 60%;
   position: absolute;
-  text-align: center;
+  top: 0%;
+  left: 0%;
+  right: 0%;
 }
 
 .horizontal {
