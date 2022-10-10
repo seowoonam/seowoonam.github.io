@@ -67,6 +67,7 @@ div.title {
   font-size: 1.5em;
   margin-top: 14px;
   text-decoration: none;
+  user-select: none;
 }
 
 .hide {
