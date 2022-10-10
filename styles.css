@@ -194,6 +194,24 @@ a.graybutton:hover {
 
 .box img {
   vertical-align: bottom;
+  border-radius: 15px
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+      border-radius: 5px;
+      width: 100%;
+      color: white;
+      box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.15);
+      position: absolute;
+      user-select: none;
+    }
+  
+    .box img {
+      vertical-align: bottom;
+      border-radius: 5px;
+      width: 100%;
+    }
 }
 
 .gray {
