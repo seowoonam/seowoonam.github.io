@@ -186,6 +186,9 @@ a.graybutton:hover {
   width: 300px;
   color: white;
   box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.15);
+  cursor: move;
+  position: absolute;
+  user-select: none;
 }
 
 .box img {
