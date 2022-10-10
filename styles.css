@@ -237,7 +237,7 @@ p.bottomverticalaxis {
   bottom: 10px;
   margin-left: 38px;
   font-family: 'Seowoo', sans-serif;
-    font-size: 16px;
+  font-size: 16px;
 }
 
 p.lefthorizontalaxis {
@@ -246,7 +246,7 @@ p.lefthorizontalaxis {
   left: 10px;
   margin-top: 12px;
   font-family: 'Seowoo', sans-serif;
-    font-size: 16px;
+  font-size: 16px;
 }
 
 p.righthorizontalaxis {
@@ -262,6 +262,7 @@ p.righthorizontalaxis {
   margin-top: 1.5em;
   position: relative;
   text-align: center;
+  user-select: none;
 }
 
 div.line {
@@ -270,6 +271,7 @@ div.line {
   top: 0%;
   left: 0%;
   right: 0%;
+  user-select: none;
 }
 
 .horizontal {
