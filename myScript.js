@@ -38,20 +38,7 @@ function dragElement(elmnt) {
     elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
   }
 
-  function closeDragElement() {
-    /* stop moving when mouse button is released:*/
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
 
-var closebtns = document.getElementsByClassName("close");
-
-for (var i = 0; i < closebtns.length; i++) {
-  closebtns[i].addEventListener("click", function() {
-    this.parentElement.style.display = 'none';
-  });
-}
-}
 
 function toggleFilter(type) {
 	if (type === 1) {
