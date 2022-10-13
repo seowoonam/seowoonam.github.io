@@ -16,51 +16,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="ie" ="edge" />
     <meta name="google-site-verification" content="D0BuVNVs7YaLJCyhhFSKfqaNFLS1e9FZorOUpOtVxcQ" />
+    <title>Seowoo Nam</title>
 
     <link rel="canonical" href="https://seowoonam.github.io" />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <title>Seowoo Nam</title>
-    <script src="myScript.js"></script>
-    <style>
-      #header {
-        background-color: white;
-        height: 100px;
-      }
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+    <link rel="stylesheet" href="/assets/css/index.css" />
 
-      /*#nav {
-      background-color: white;
-      width: 200px;
-      height: 800px;
-      float: left;
-    }*/
-
-      #section {
-        width: 600px;
-        text-align: left;
-        float: left;
-        padding: 10px;
-      }
-
-      #footer {
-        background-color: white;
-        height: 100px;
-        clear: both;
-      }
-
-      #header,
-      #footer {
-        text-align: center;
-      }
-
-      #footer {
-        line-height: 100px;
-      }
-
-      #nav {
-        line-height: 40px;
-      }
-    </style>
-    <script src="lib/w3.js"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-RNXC8BPY1Q"></script>
     <script>
@@ -83,10 +44,10 @@
           <div class="colordot thirddot"></div>
           <div class="colordot seconddot"></div>
           <div class="colordot firstdot"></div>
-          <div class="title" onclick="location.href ='index.html'">SEOWOO NAM</div>
+          <div class="title" onclick="location.href='index.html'">SEOWOO NAM</div>
         </div>
       </div>
-      <div class="coordinates" style="z-index: -100">
+      <div class="coordinates">
         <div class="horizontal line">
           <p class="topverticalaxis">RECENT</p>
         </div>
@@ -96,12 +57,14 @@
         </div>
       </div>
     </div>
+    <!-- You could probably position these buttons more easily if they live in a container like div or nav. -->
     <a href="about.html" class="button orangebutton" style="position: fixed; top: 20px; right: 156px">ABOUT</a>
     <a href="mailto:97seowoo@gmail.com" class="button graybutton" style="position: fixed; top: 20px; right: 20px"
       >CONTACT</a
     >
-    <div class="box workcard" style="position: absolute; top: 40%; left: 45%; z-index: -1">
-      <img src="images/pay or care_web.png" alt="Pay or Care" width="300" /><span class="close">&times;</span
+
+    <div class="box workcard" id="ei_2021">
+      <img src="assets/images/pay_or_care_web.png" alt="Pay or Care" width="300" /><span class="close">&times;</span
       ><a
         href="https://studiolab.ide.tudelft.nl/studiolab/exploringinteractions/pay-or-care/"
         class="button orangetransparentbutton"
@@ -110,24 +73,30 @@
       >
     </div>
 
-    <div class="orange box writingcard rmCup">
+    <div class="orange box writingcard" id="rm_2022">
       <p class="title">WHAT CAN A CUP TELL<br />ABOUT HOME OFFICE CLIMATE</p>
       <span class="close">&times;</span>Applying alien phenomenology from a cup's point of view in discovering entangled
       dynamics of indoor climate system in home offices.
     </div>
-    <a href="https://vimeo.com/481393706"
-      ><div class="gray box workcard" style="position: absolute; top: 65%; left: 50%; z-index: -2; width: 320px">
+
+    <div class="gray box workcard" id="seoul_food_metro">
+      <a class="box_link" href="https://vimeo.com/481393706">
         <p class="title">SEOUL FOOD METRO</p>
         <span class="close">&times;</span>Sustainable food system that distributes, delivers, and sells local vegetables
-        through retrofitted metro
-      </div></a
-    >
-    <a href="https://lucidmindsai.medium.com/green-urban-scenarios-298d75b100b4">
-      <div class="gray box workcard" style="position: absolute; top: 16%; left: 60%; z-index: -2; width: 320px">
+        through retrofitted metro</a
+      >
+    </div>
+
+    <div class="gray box workcard" id="green_urban_scenarios">
+      <a class="box_link" href="https://lucidmindsai.medium.com/green-urban-scenarios-298d75b100b4">
         <p class="title">GREEN URBAN SCENARIOS</p>
         <span class="close">&times;</span>Agent-based modeling and simulation of the urban forest to better design,
         forecast, and monitor green infrastructures in cities
-      </div>
-    </a>
+      </a>
+    </div>
+
+    <!-- Scripts should generally go before </body> so that the page loads faster. -->
+    <script src="/assets/myScript.js"></script>
+    <script src="lib/w3.js"></script>
   </body>
 </html>

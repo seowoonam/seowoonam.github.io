@@ -14,7 +14,6 @@ function dragElement(elmnt) {
     pos3 = 0,
     pos4 = 0;
   elmnt.onmousedown = dragMouseDown;
-  alert('test');
 
   function dragMouseDown(e) {
     e = e || window.event;
