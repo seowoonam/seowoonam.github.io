@@ -1,73 +1,82 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width" ="device-width," initial-scale="1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css" />
+    <title>About</title>
+  </head>
 
-<head>
-  <meta charset=“UTF-8”>
-  <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
-  <meta http-equiv=“X-UA-Compatible” content=“ie=edge”>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Zen+Kaku+Gothic+Antique:wght@300;400;500;700;900&family=Zen+Kaku+Gothic+New:wght@300;400;500;700;900&display=swap"
-    rel="stylesheet">
-  <title>About</title>
-  <script src="lib/w3.js"></script>
-</head>
+  <body>
+    <div w3-include-html="header.html"></div>
+    <section class="about_me_container">
+      <p>
+        Seowoo is a design researcher who explores designerly ways of engaging with emerging technologies to address
+        sociotechnical issues. In particular, she is interested in new forms of agency enabled by data and their
+        emergent, entangled, situated, and relational interactions in complex systems.
+      </p>
+      <p>
+        Hovering around and sometimes grounded in theories of posthuman and complexity, she enjoys bridging theories and
+        situated knowledge through practices of Research through Design (RtD). By thinking and tinkering with
+        technology, she brings alternative ontologies and epistemologies down to earth.
+      </p>
+      <p>
+        Her current interest areas include 1) more-than-human design approaches/strategies for intelligent agents and
+        data-driven systems and 2) alternative modes of data collection and sensemaking.
+      </p>
+    </section>
 
-<body>
-  <div w3-include-html="header.html"></div>
-  <article style="padding: 5px; color: #E26039; font-weight: 500">
-    <p>Seowoo is an interdisciplinary design researcher who explores designerly ways of engaging with emerging technologies to
-    address sociotechnical issues. In particular, she is interested in <b>new forms of agency enabled by data and their
-    intra-actions as fluid assemblages in complex systems</b>.
-    <br><br>
-    At the intersection of Human-Computer Interaction (HCI) and Science and Technologies Studies (STS), her research hovers
-    around theories of posthuman, alien phenomenology, complexity, and technological mediation. The current interest areas include:
-    <br><br>
-    1. Developing <b>posthumanist design approaches/strategies</b> for intelligent agents and data-driven systems
-    <p style="padding-left: 20px; padding-right: 20px; padding-top: 0px; padding-bottom: 0px">- e.g. How AI system co-evolves their own perception, agencies, and trajectories with people<br>
-    - e.g.2 Design strategies to bring nonhumans as more proactive agents in our urban fabric</p>
-    2. Developing alternative modes of <b style="color: #E26039">data collection and sensemaking</b> for AI/ML<br>
-    <p style="padding-left: 20px; padding-right: 20px; padding-top: 0px; padding-bottom: 0px">- e.g. Designing scalable design probes<br>
-    - e.g.2 How things gather contextual data for design ethnography<br>
-    - e.g.3 How environmental data can help gain a new understanding of more-than-humans<br></p>
-    3. Designing tools for designers/developers who design for and with AI</p></article>
-    <br>
-    <br>
-    <br>
-    <article style="padding: 15px; color: #000000; font-weight: 500"></article><p style="font-family: 'Seowoo'; font-size: 16px">EDUCATION</p>
-    <p style="padding-left: 20px; padding-right: 20px; padding-top: 0px; padding-bottom: 0px">2021-2023&nbsp;&nbsp;MSc Design for Interaction, Delft University of Technology (TU Delft), NL<br>
-    2016-2021&nbsp;&nbsp;BSc Industrial Design <i>(magna cum laude)</i>, Korea Advanced Institute of Science and Technology (KAIST), KR</p>
-    <br>
-    <br>
-    <p style="font-family: 'Seowoo'; font-size: 16px">EXPERIENCES</p>
-    <p style="padding-left: 20px; padding-right: 20px; padding-top: 0px; padding-bottom: 0px">2022 - now&nbsp;&nbsp;&nbsp;Research Assistant @ <a href="https://www.tudelft.nl/en/ide">IDE TU Delft</a><br>
-    2022 - now&nbsp;&nbsp;&nbsp;Design Researcher @ <a href="https://lucidminds.ai/">LucidMinds AI</a><br>
-    2019 - 2022&nbsp;&nbsp;Research Assistant @ KAIST</p>
-    <br>
-    <br>
-    <p style="font-family: 'Seowoo'; font-size: 16px">PUBLICATIONS</p>
-    <p style="padding-left: 20px; padding-right: 20px; padding-top: 0px; padding-bottom: 0px">
-    <i>(forthcoming)</i></p>
-    <br>
-    <br>
-    <p style="font-family: 'Seowoo'; font-size: 16px">AWARDS AND GRANTS</p>
-    <p style="padding-left: 20px; padding-right: 20px; padding-top: 0px; padding-bottom: 0px">2021 - iF Design Award, Gold Award, Service Design<br>
-    2021 - iF Design Award, User Interface Design<br>
-    2021 - Red Dot Design Award, Winner<br>
-    2020 - Asia Young Activist Researcher Fellowship (AYARF)<br>
-    2020 - Dean's List in College of Engineering, KAIST<br>
-    2018 - Dean's List in College of Engineering, KAIST<br>
-    2018 - The National Scholarship for Science and Engineering, Korea Student Aid Foundation (KOSAF)<br>
-    2017 - Dean's List in College of Engineering, KAIST</p>
-    <br>
+    <section class="about_section_container">
+      <h2 class="about_section_head">EDUCATION</h2>
+      <ul class="about_section_list">
+        <li>
+          <span class="year_range">2021 &ndash; 2023</span>
+          MSc Design for Interaction, Delft University of Technology (TU Delft), NL
+        </li>
+        <li>
+          <span class="year_range">2016 &ndash; 2021</span>
+          BSc Industrial Design <em>(magna cum laude)</em>, Korea Advanced Institute of Science and Technology (KAIST),
+          KR
+        </li>
+      </ul>
+    </section>
 
+    <section class="about_section_container">
+      <h2 class="about_section_head">EXPERIENCES</h2>
+      <ul class="about_section_list">
+        <li><span class="year_range">2022 &ndash; present</span> Research Assistant @ IDE TU Delft</li>
+        <li><span class="year_range">2022 &ndash present</span> Design Researcher @ LucidMinds AI</li>
+        <li><span class="year_range">2019 &ndash; 2022</span> Research Assistant @ KAIST</li>
+      </ul>
+    </section>
 
-  </article>
-  <script>
-    w3.includeHTML();
-  </script>
-</body>
+    <section class="about_section_container">
+      <h2 class="about_section_head">PUBLICATIONS</h2>
+      <ul class="about_section_list">
+        <li><em>(forthcoming)</em></li>
+      </ul>
+    </section>
 
+    <section class="about_section_container">
+      <h2 class="about_section_head">AWARDS AND GRANTS</h2>
+      <ul class="about_section_list">
+        <li><span class="year_range">2021</span> - iF Design Award, Gold Award, Service Design</li>
+        <li><span class="year_range">2021</span> - iF Design Award, User Interface Design</li>
+        <li><span class="year_range">2021</span> - Red Dot Design Award, Winner</li>
+        <li><span class="year_range">2020</span> - Asia Young Activist Researcher Fellowship (AYARF)</li>
+        <li><span class="year_range">2020</span> - Dean's List in College of Engineering, KAIST<br /></li>
+        <li><span class="year_range">2018</span> - Dean's List in College of Engineering, KAIST<br /></li>
+        <li>
+          <span class="year_range">2018</span> - The National Scholarship for Science and Engineering, Korea Student Aid
+          Foundation (KOSAF)
+        </li>
+        <li><span class="year_range">2017</span> - Dean's List in College of Engineering, KAIST</li>
+      </ul>
+    </section>
+    <script src="/assets/lib/w3.js"></script>
+    <script>
+      w3.includeHTML();
+    </script>
+  </body>
 </html>
