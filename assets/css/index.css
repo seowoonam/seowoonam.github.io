@@ -1,0 +1,37 @@
+#header {
+  background-color: white;
+  height: 100px;
+}
+
+/*#nav {
+      background-color: white;
+      width: 200px;
+      height: 800px;
+      float: left;
+    }*/
+
+#section {
+  width: 600px;
+  text-align: left;
+  float: left;
+  padding: 10px;
+}
+
+#footer {
+  background-color: white;
+  height: 100px;
+  clear: both;
+}
+
+#header,
+#footer {
+  text-align: center;
+}
+
+#footer {
+  line-height: 100px;
+}
+
+#nav {
+  line-height: 40px;
+}

@@ -2,12 +2,10 @@
 
 @font-face {
   font-family: 'Seowoo';
-  src: url('fonts/Seowoo.eot');
-  src: url('fonts/Seowoo.eot?#iefix') format('embedded-opentype'),
-    url('fonts/Seowoo.woff') format('woff'),
-    url('fonts/Seowoo.woff2') format('woff2'),
-    url('fonts/Seowoo.ttf') format('truetype'),
-    url('fonts/Seowoo.svg#Seowoo') format('svg');
+  src: url('/assets/fonts/Seowoo.eot');
+  src: url('/assets/fonts/Seowoo.eot?#iefix') format('embedded-opentype'),
+    url('/assets/fonts/Seowoo.woff') format('woff'), url('/assets/fonts/Seowoo.woff2') format('woff2'),
+    url('/assets/fonts/Seowoo.ttf') format('truetype'), url('/assets/fonts/Seowoo.svg#Seowoo') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -56,7 +54,7 @@ a:visited {
 a:hover,
 a:active {
   color: black;
-  background-color: #E26039;
+  background-color: #e26039;
   cursor: pointer;
   text-decoration: none;
 }
@@ -77,7 +75,7 @@ div.title {
 
 div.title:hover + .hide {
   display: inline-block;
-  color: #E26039;
+  color: #e26039;
 }
 
 div.title:hover {
@@ -85,12 +83,11 @@ div.title:hover {
 }
 
 .colordot {
-  background-color: #E26039;
-  border: 0.1em solid #FFFFFF;
+  background-color: #e26039;
+  border: 0.1em solid #ffffff;
   border-radius: 50%;
   height: 2em;
   width: 2em;
-
 }
 
 .firstdot {
@@ -150,22 +147,22 @@ a.filterbutton {
 a.orangebutton {
   background-color: white;
   color: black;
-  border: 2px solid #E26039;
+  border: 2px solid #e26039;
 }
 
 a.orangebutton:hover {
-  background-color: #E26039;
+  background-color: #e26039;
   color: white;
 }
 
 a.orangetransparentbutton {
   background-color: rgba(255, 255, 255, 0.6);
   color: black;
-  border: 2px solid #E26039;
+  border: 2px solid #e26039;
 }
 
 a.orangetransparentbutton:hover {
-  background-color: #E26039;
+  background-color: #e26039;
   color: white;
 }
 
@@ -181,7 +178,8 @@ a.graybutton:hover {
   border: none;
 }
 
-#contentcard {}
+#contentcard {
+}
 
 .box {
   border-radius: 15px;
@@ -194,36 +192,36 @@ a.graybutton:hover {
 
 .box img {
   vertical-align: bottom;
-  border-radius: 15px
+  border-radius: 15px;
 }
 
 @media only screen and (max-width: 768px) {
   .box {
-      border-radius: 5px;
-      width: 100%;
-      color: white;
-      box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.15);
-      position: absolute;
-      user-select: none;
-    }
-  
-    .box img {
-      vertical-align: bottom;
-      border-radius: 5px;
-      width: 100%;
-    }
+    border-radius: 5px;
+    width: 100%;
+    color: white;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.15);
+    position: absolute;
+    user-select: none;
+  }
+
+  .box img {
+    vertical-align: bottom;
+    border-radius: 5px;
+    width: 100%;
+  }
 }
 
 .gray {
   padding: 20px 15px;
   padding-top: 3px;
-  background-color: #514643
+  background-color: #514643;
 }
 
 .orange {
   padding: 25px 15px;
   padding-top: 3px;
-  background-color: #E26039
+  background-color: #e26039;
 }
 
 .close {
@@ -235,12 +233,18 @@ a.graybutton:hover {
   transform: translate(0%, -50%);
 }
 
-.workcard {}
+/* .workcard {
+}
 
-.experimentcard{}
+.experimentcard {
+}
 
-.writingcard{}
+.writingcard {
+} */
 
+.coordinates {
+  z-index: -100;
+}
 p.topverticalaxis {
   writing-mode: vertical-lr;
   position: absolute;
@@ -274,7 +278,7 @@ p.righthorizontalaxis {
   right: 10px;
   margin-top: 12px;
   font-family: 'Seowoo', sans-serif;
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .coordinates {
@@ -307,4 +311,71 @@ div.line {
   background-size: 1.5px 7px;
   background-repeat: repeat-y;
   display: inline;
+}
+
+/* Positioning each Project Card */
+#ei_2021 {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  z-index: -1;
+}
+
+#rm_2022 {
+  top: 40%;
+  left: 10%;
+  z-index: -2;
+}
+
+#seoul_food_metro {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  z-index: -2;
+  width: 320px;
+}
+
+a.box_link:visited,
+a.box_link:hover,
+a.box_link:active {
+  color: white;
+  background-color: transparent;
+}
+
+#green_urban_scenarios {
+  position: absolute;
+  top: 16%;
+  left: 60%;
+  z-index: -2;
+  width: 320px;
+}
+
+.about_me_container {
+  padding: 5px;
+  color: #e26039;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.about_me_container > p {
+  margin-bottom: 2rem;
+}
+
+.about_section_container {
+  margin-bottom: 3rem;
+}
+
+.about_section_head {
+  font-family: 'Seowoo';
+  font-size: 16px;
+}
+
+.about_section_list {
+  padding: 0 20px;
+  list-style: none;
+  margin: 0;
+}
+
+span.year_range {
+  margin-right: 3px;
 }
